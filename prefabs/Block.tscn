@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cec6n7elncqtx"]
+
+[ext_resource type="Texture2D" uid="uid://c42e5km2rxuvs" path="res://assets/images/blocks/crate_43.png" id="1_unt4o"]
+
+[node name="Block" type="Node2D"]
+
+[node name="Texture" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_unt4o")
